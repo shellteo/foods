@@ -17,7 +17,8 @@
     config = {
       pages: [
         'pages/index',
-        'pages/me'
+        'pages/me',
+        'pages/discovery'
       ],
       window: {
         backgroundTextStyle: 'light',
@@ -36,9 +37,14 @@
           "selectedIconPath": "images/order_fill_64.png",
           "text": "日记"
         }, {
+          "pagePath": "pages/discovery",
+          "iconPath": "images/discovery_64.png",
+          "selectedIconPath": "images/discovery_fill_64.png",
+          "text": "发现"
+        }, {
           "pagePath": "pages/me",
-          "iconPath": "images/people_64.png",
-          "selectedIconPath": "images/people_fill_64.png",
+          "iconPath": "images/user_64.png",
+          "selectedIconPath": "images/user_fill_64.png",
           "text": "我的"
         }]
       }
